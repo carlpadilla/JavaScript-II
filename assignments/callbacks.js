@@ -85,12 +85,13 @@ function contains(item, list, cb) {
 
 contains('Notebook', items, (check) => {
 
+
   if (check === true) {
     console.log(true);
   } else {
     console.log(false);
   }
-});
+}); // Returns true is item is found in the array, returns false is not
 
 /* STRETCH PROBLEM */
 
